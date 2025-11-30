@@ -3,7 +3,7 @@ ob_start();
 
 $host = "127.0.0.1";
 $username = "admin";
-$password = "admin"; 
+$password = "admin";
 $dbname = "mahasiswa";
 
 $connection = mysqli_connect($host, $username, $password) or die("Can't connect to MySQL server");
